@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  Default
+  bala
 
 steps:
 - script: echo Hello, world!
