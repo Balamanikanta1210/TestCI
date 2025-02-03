@@ -17,3 +17,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: UiPathInstallPlatform-preview@5
+  inputs:
+    cliVersion: 'WIN_24.10.9050.17872'
+    cliNupkgPath: 'C:\Users\balamanikanta.krishn\Downloads\UiPath.CLI.25.0.0-dev1\UiPath.CLI.25.0.0-dev1\windows.zip'
