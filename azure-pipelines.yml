@@ -21,8 +21,8 @@ steps:
   inputs:
     cliVersion: 'WIN_24.10.9050.17872'
 
-#- task: UiPathPack@5
-#  inputs:
-#    versionType: 'AutoVersion'
-#    projectJsonPath: 'C:\Users\balamanikanta.krishn\Downloads\Vendor_Query_Management_Dispatcher\Vendor_Query_Management_Dispatcher\project.json'
-#    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+- task: UiPathPack@5
+  inputs:
+    versionType: 'AutoVersion'
+    projectJsonPath: 'C:\Users\balamanikanta.krishn\Downloads\Vendor_Query_Management_Dispatcher\Vendor_Query_Management_Dispatcher\project.json'
+    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
