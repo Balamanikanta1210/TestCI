@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: DESKTOP-TTCBAM2
+  Default
 
 steps:
 - script: echo Hello, world!
