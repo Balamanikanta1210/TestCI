@@ -17,12 +17,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
 - task: UiPathInstallPlatform@5
   inputs:
-    cliVersion: 'WIN_24.10.9050.17872'
-
-- task: UiPathPack@5
-  inputs:
-    versionType: 'AutoVersion'
-    projectJsonPath: 'C:\Users\balamanikanta.krishn\Downloads\Vendor_Query_Management_Dispatcher\Vendor_Query_Management_Dispatcher\project.json'
-    outputPath: '$(Build.ArtifactStagingDirectory)\Output'
+    cliVersion: 'WIN_22.10.9277.18196'
